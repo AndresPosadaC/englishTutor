@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Tutor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="m-0 p-0 h-screen w-screen font-sans bg-gray-100 overflow-hidden flex flex-col">
+
+    <div id="slide-container" class="flex-grow h-[80%] w-full flex justify-center items-center bg-white p-5 box-border overflow-hidden">
+        </div>
+
+    <div id="text-area" class="shrink-0 h-[20%] w-full bg-slate-800 text-white flex justify-center items-center text-4xl text-center px-10 font-bold box-border relative">
+        </div>
+
+    <div class="fixed bottom-5 left-5 z-50">
+        <select id="unit-selector" class="bg-slate-700 hover:bg-slate-600 text-white font-bold py-3 px-4 rounded shadow-lg border border-slate-600 outline-none cursor-pointer transition-colors text-sm">
+            </select>
+    </div>
+
+    <div class="fixed bottom-5 right-5 flex gap-2 z-50">
+        <button id="prevBtn" class="bg-slate-700 hover:bg-slate-600 text-white border-none py-2 px-5 text-2xl cursor-pointer rounded shadow-lg transition-colors">❮</button>
+        <button id="nextBtn" class="bg-slate-700 hover:bg-slate-600 text-white border-none py-2 px-5 text-2xl cursor-pointer rounded shadow-lg transition-colors">❯</button>
+    </div>
+
+    <script src="UnitsRegistry.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
