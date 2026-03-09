@@ -1,5 +1,5 @@
 /**
- * English Tutor - Lesson Registry
+ * Berlitz Immersion - Lesson Registry
  * Auto-generated file from JSON sources.
  */
 
@@ -258,6 +258,154 @@ const UnitsRegistry = {
                     "Apology for Spilling: Apologize to the host for spilling something on their carpet."
                 ],
                 "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1772934535/image_moving_tmkg9s.png"
+            }
+        ]
+    },
+    "UNIT_22": {
+        "metadata": {
+            "title": "Describe personal qualities",
+            "subtitle": "Unit 22 - Personal Qualities"
+        },
+        "slides": [
+            {
+                "type": "comic_grid",
+                "question": "Describe personal qualities",
+                "panels": [
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773017323/disorganized_ymqfco.png",
+                        "prompt": "Organized vs Disorganized"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773017323/impatient_ddr2tj.png",
+                        "prompt": "Patient vs Impatient"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773017327/shy_b0kgm7.png",
+                        "prompt": "Shy vs Outgoing"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773017327/hardworking_amirrw.png",
+                        "prompt": "Hardworking vs Lazy"
+                    }
+                ]
+            },
+            {
+                "type": "comic_grid",
+                "question": "Describe personal qualities",
+                "panels": [
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773020139/unplasent_o8cppp.png",
+                        "prompt": "Plasent vs Unplasent"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773020139/reliable_je5cce.png",
+                        "prompt": "Reliable vs Unreliable"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773020139/honest_fyqluf.png",
+                        "prompt": "Honest vs Dishonest"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773020139/indecisive_dmn2yu.png",
+                        "prompt": "Decisive vs Indecisive"
+                    }
+                ]
+            },
+            {
+                "type": "comic_grid",
+                "question": "Describe personal qualities",
+                "panels": [
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773020964/flexible_xjdofr.png",
+                        "prompt": "Flexible"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773020964/unflexible_zcargp.png",
+                        "prompt": "Inflexible"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773020964/dependent_ilamrg.png",
+                        "prompt": "Dependent"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773020964/independent_b8vqnf.png",
+                        "prompt": "Independent"
+                    }
+                ]
+            },
+            {
+                "type": "teacher_notes",
+                "title": "Lesson Notes",
+                "content": "Use this canvas to map out the vocabulary derived from the previous images."
+             },
+            {
+                "type": "grammar_focus",
+                "title": "Fair or unfair?",
+                "instruction": "Fill the blanks.",
+                "sentences": [
+                    "1. fair -> {blank}fair",
+                    "2. patient -> {blank}patient",
+                    "3. honest -> {blank}honest",
+                    "4. reliable -> {blank}reliable",
+                    "5. logical -> {blank}logical",
+                    "6. responsible -> {blank}responsible"
+                ]
+            },
+            {
+                "type": "expression_bank",
+                "title": "What are your strengths and weaknesses?",
+                "dialogues": [
+                    "– I consider myself {blank} and dependable.",
+                    "– I can be a little {blank} sometimes.",
+                    "– Eileen seems like an excellent employee. She is {blank}, she's {blank}, and she's always calm in a crisis.",
+                    "– What is your boss like? He's {blank} and {blank}.",
+                    "– What is Ellie like? She's {blank} and {blank}."
+                ],
+                "bank": [
+                    "hardworking",
+                    "impatient",
+                    "enthusiastic",
+                    "creative",
+                    "fair",
+                    "honest",
+                    "irresponsible",
+                    "unreliable"
+                ]
+            },
+            {
+                "type": "listening",
+                "title": "What are they like?",
+                "sentences": [
+                    "A. Annette's greatest strength is that she is {blank}. She works well with others, but she prefers to work {blank}. Her biggest weakness is that she is {blank}.",
+                    "B. Daniel considers himself {blank} and reliable. He thinks his best quality is that he is {blank}. He doesn't think he has any weaknesses, but his girlfriend says he's a bit {blank} sometimes.",
+                    "C. Charlene is {blank}, flexible, and {blank}. Even when passengers are {blank} to her, she does her best to be friendly and {blank}."
+                ]
+            },
+            {
+                "type": "reading",
+                "title": "To Whom It May Concern",
+                "content": "James joined our firm shortly after graduating from university. During the three years James was with us, he proved to be {blank}, {blank}, and eager to learn. James was well liked by all members of our staff and our customers, and his work was always of very high quality. His colleagues considered him a {blank} and {blank} person to work with."
+            },
+            {
+                "type": "comic_grid",
+                "question": "Interview with the CEO",
+                "panels": [
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773017637/interview_abhpue.png",
+                        "prompt": "An employee sitting confidently across a desk from a CEO in a bright office, having a job interview."
+                    }
+                ]
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "Interview with the CEO",
+                "content": "Describe personal qualities.",
+                "tasks": [
+                    "Practice what you would say about yourself if you had an interview with your CEO.",
+                    "Think about your strengths and your weaknesses.",
+                    "Use vocabulary from the lesson."
+                ],
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773017637/interview_abhpue.png"
             }
         ]
     }
