@@ -268,8 +268,13 @@ const UnitsRegistry = {
         },
         "slides": [
             {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773017637/interview_abhpue.png"
+            },
+            {
                 "type": "comic_grid",
-                "question": "Describe personal qualities",
+                "question": "What is happening?",
                 "panels": [
                     {
                         "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773017323/disorganized_ymqfco.png",
@@ -291,10 +296,10 @@ const UnitsRegistry = {
             },
             {
                 "type": "comic_grid",
-                "question": "Describe personal qualities",
+                "question": "What is happening?",
                 "panels": [
                     {
-                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773020139/unplasent_o8cppp.png",
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773026374/unplasent_o8cppp.png",
                         "prompt": "Plasent vs Unplasent"
                     },
                     {
@@ -313,7 +318,7 @@ const UnitsRegistry = {
             },
             {
                 "type": "comic_grid",
-                "question": "Describe personal qualities",
+                "question": "What is happening?",
                 "panels": [
                     {
                         "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773020964/flexible_xjdofr.png",
@@ -335,8 +340,7 @@ const UnitsRegistry = {
             },
             {
                 "type": "teacher_notes",
-                "title": "Lesson Notes",
-                "content": "Use this canvas to map out the vocabulary derived from the previous images."
+                "title": "Lesson Notes"
             },
             {
                 "type": "grammar_focus",
@@ -387,23 +391,17 @@ const UnitsRegistry = {
                 "content": "James joined our firm shortly after graduating from university. During the three years James was with us, he proved to be {blank}, {blank}, and eager to learn. James was well liked by all members of our staff and our customers, and his work was always of very high quality. His colleagues considered him a {blank} and {blank} person to work with."
             },
             {
-                "type": "comic_grid",
-                "question": "Interview with the CEO",
-                "panels": [
-                    {
-                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773017637/interview_abhpue.png",
-                        "prompt": "An employee sitting confidently across a desk from a CEO in a bright office, having a job interview."
-                    }
-                ]
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773017637/interview_abhpue.png"
             },
             {
                 "type": "performance_with_notes",
-                "title": "Interview with the CEO",
-                "content": "Describe personal qualities.",
+                "title": "FEEDBACK",
                 "tasks": [
-                    "Practice what you would say about yourself if you had an interview with your CEO.",
-                    "Think about your strengths and your weaknesses.",
-                    "Use vocabulary from the lesson."
+                    "Review",
+                    "Goal",
+                    "Feedback"
                 ],
                 "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773017637/interview_abhpue.png"
             }
@@ -416,8 +414,12 @@ const UnitsRegistry = {
         },
         "slides": [
             {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773023760/confident_evgt4k.png"
+            },
+            {
                 "type": "comic_grid",
-                "question": "How good are they?",
                 "panels": [
                     {
                         "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773023756/Incompetent_lyenrh.png",
@@ -439,7 +441,6 @@ const UnitsRegistry = {
             },
             {
                 "type": "comic_grid",
-                "question": "Amateur or Professional?",
                 "panels": [
                     {
                         "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773023756/Amateur_etijfq.png",
@@ -499,23 +500,17 @@ const UnitsRegistry = {
                 "content": "The company is looking for {blank} and enthusiastic Spanish-speaking marketing assistants. Candidates should be very familiar with online marketing. <br><br>Key skill requirements:<br>• Computer literate—must be {blank} in MS Office, email, and Internet browsers.<br>• {blank} in spoken and written Spanish.<br>• Able to work both on your own and with a team.<br>• {blank}.<br>• Confident and {blank}."
             },
             {
-                "type": "comic_grid",
-                "question": "The Job Interview",
-                "panels": [
-                    {
-                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773023760/confident_evgt4k.png",
-                        "prompt": "Talk to a recruiter about your areas of expertise."
-                    }
-                ]
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773023760/confident_evgt4k.png"
             },
             {
                 "type": "performance_with_notes",
-                "title": "Talk to a Recruiter",
-                "content": "Describe how well you can do something.",
+                "title": "FEEDBACK",
                 "tasks": [
-                    "You are looking for a new job.",
-                    "Talk to a recruiter about your areas of expertise, your experience, and the things that you can do well.",
-                    "Use vocabulary from the lesson (e.g., proficient in, competent, self-motivated)."
+                    "Review",
+                    "Goal",
+                    "Feedback"
                 ],
                 "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773023760/confident_evgt4k.png"
             }
