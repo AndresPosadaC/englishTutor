@@ -337,7 +337,7 @@ const UnitsRegistry = {
                 "type": "teacher_notes",
                 "title": "Lesson Notes",
                 "content": "Use this canvas to map out the vocabulary derived from the previous images."
-             },
+            },
             {
                 "type": "grammar_focus",
                 "title": "Fair or unfair?",
@@ -406,6 +406,118 @@ const UnitsRegistry = {
                     "Use vocabulary from the lesson."
                 ],
                 "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773017637/interview_abhpue.png"
+            }
+        ]
+    },
+    "UNIT_23": {
+        "metadata": {
+            "title": "Describe how well you can do something",
+            "subtitle": "Unit 23 - Skills & Expertise"
+        },
+        "slides": [
+            {
+                "type": "comic_grid",
+                "question": "How good are they?",
+                "panels": [
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773023756/Incompetent_lyenrh.png",
+                        "prompt": "Incompetent"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773023757/Beginner_u7wapu.png",
+                        "prompt": "Beginner"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773023756/Competent_v1swng.png",
+                        "prompt": "Competent"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773023757/Expert_jwgqzo.png",
+                        "prompt": "Expert"
+                    }
+                ]
+            },
+            {
+                "type": "comic_grid",
+                "question": "Amateur or Professional?",
+                "panels": [
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773023756/Amateur_etijfq.png",
+                        "prompt": "Amateur"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773023756/Professional_fvtdm9.png",
+                        "prompt": "Professional"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773023757/Bright_njeczs.png",
+                        "prompt": "Bright"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773023757/SelfMotivated_srkuli.png",
+                        "prompt": "Self-motivated"
+                    }
+                ]
+            },
+            {
+                "type": "teacher_notes",
+                "title": "Lesson Notes",
+                "content": "Use this canvas to map out the vocabulary derived from the previous images (e.g., beginner, amateur, professional, competent, expert)."
+            },
+            {
+                "type": "grammar_focus",
+                "title": "Proficiency Levels",
+                "instruction": "Fill in the blanks with the correct skill level.",
+                "sentences": [
+                    "1. He just started playing tennis yesterday; he is a {blank}.",
+                    "2. She plays golf for fun on weekends, not for money; she is an {blank}.",
+                    "3. They do their job well and without mistakes; they are {blank}.",
+                    "4. He is terrible at fixing cars; he is completely {blank}.",
+                    "5. She gets paid to play soccer; she is a {blank}.",
+                    "6. He knows everything about computer programming; he is an {blank}."
+                ]
+            },
+            {
+                "type": "expression_bank",
+                "title": "Areas of Expertise",
+                "dialogues": [
+                    "– Can you recommend a good mechanic? <br>– No, don't go to Big Joe's Auto. They're completely {blank}.",
+                    "– How good are you at web design? <br>– Who, me? I'm just an {blank}, but my son is very good at it.",
+                    "– Who can help me with my computer? <br>– Talk to Ted. He's an {blank}.",
+                    "– How good is she with classroom software? <br>– She took a course a few weeks ago. She's still a {blank}."
+                ],
+                "bank": [
+                    "incompetent",
+                    "amateur",
+                    "expert",
+                    "beginner"
+                ]
+            },
+            {
+                "type": "reading",
+                "title": "Looking for an assistant",
+                "content": "The company is looking for {blank} and enthusiastic Spanish-speaking marketing assistants. Candidates should be very familiar with online marketing. <br><br>Key skill requirements:<br>• Computer literate—must be {blank} in MS Office, email, and Internet browsers.<br>• {blank} in spoken and written Spanish.<br>• Able to work both on your own and with a team.<br>• {blank}.<br>• Confident and {blank}."
+            },
+            {
+                "type": "comic_grid",
+                "question": "The Job Interview",
+                "panels": [
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773023760/confident_evgt4k.png",
+                        "prompt": "Talk to a recruiter about your areas of expertise."
+                    }
+                ]
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "Talk to a Recruiter",
+                "content": "Describe how well you can do something.",
+                "tasks": [
+                    "You are looking for a new job.",
+                    "Talk to a recruiter about your areas of expertise, your experience, and the things that you can do well.",
+                    "Use vocabulary from the lesson (e.g., proficient in, competent, self-motivated)."
+                ],
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773023760/confident_evgt4k.png"
             }
         ]
     }
