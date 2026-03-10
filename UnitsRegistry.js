@@ -462,8 +462,7 @@ const UnitsRegistry = {
             },
             {
                 "type": "teacher_notes",
-                "title": "Lesson Notes",
-                "content": "Use this canvas to map out the vocabulary derived from the previous images (e.g., beginner, amateur, professional, competent, expert)."
+                "title": "Lesson Notes"
             },
             {
                 "type": "grammar_focus",
@@ -525,7 +524,7 @@ const UnitsRegistry = {
             {
                 "type": "performance_with_notes",
                 "title": "GOAL",
-                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113730/errands1_d06tkb.png"
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773170191/errands1_d06tkb.png"
             },
             {
                 "type": "comic_grid",
@@ -551,20 +550,19 @@ const UnitsRegistry = {
             },
             {
                 "type": "teacher_notes",
-                "title": "Lesson Notes",
-                "content": "Introduce the causative form (to have/get something done) using the previous images."
+                "title": "Lesson Notes"
             },
             {
                 "type": "grammar_focus",
                 "title": "Fill the blanks",
                 "instruction": "Fill in the correct form of the verb.",
                 "sentences": [
-                    "1. My son needs to go to the dentist to get his teeth {blank}.",
-                    "2. Do you regularly get the oil in your car {blank}?",
-                    "3. My sister doesn't like to have her ironing {blank} by anyone else.",
-                    "4. We plan to have our living room {blank} next summer.",
-                    "5. Have you ever had your eyes {blank}, Susan?",
-                    "6. You should go to the pharmacy and get your prescription {blank}."
+                    "1. My son needs to go to the dentist to get his teeth {blank}. [a. prepared / b. cleaned]",                 
+                    "2. Do you regularly get the oil in your car {blank}? [a. changed / b. painted]",                  
+                    "3. My sister doesn't like to have her ironing {blank} by anyone else. [a. done / b. checked]",                  
+                    "4. We plan to have our living room {blank} next summer. [a. prepared / b. painted]",                   
+                    "5. Have you ever had your eyes {blank}, Susan? [a. checked / b. cleaned]",
+                    "6. You should go to the pharmacy and get your prescription {blank}. [a. cut / b. filled]"
                 ]
             },
             {
@@ -630,8 +628,7 @@ const UnitsRegistry = {
             },
             {
                 "type": "teacher_notes",
-                "title": "Lesson Notes",
-                "content": "Map out vocabulary (compact, full-size, SUV, luxury, mileage, gas tank, insurance)."
+                "title": "Lesson Notes"
             },
             {
                 "type": "grammar_focus",
