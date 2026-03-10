@@ -515,5 +515,167 @@ const UnitsRegistry = {
                 "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773023760/confident_evgt4k.png"
             }
         ]
+    },
+    "UNIT_CHORES": {
+        "metadata": {
+            "title": "Talk about your chores and errands",
+            "subtitle": "English 3 - Chores & Errands"
+        },
+        "slides": [
+            {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113730/errands1_d06tkb.png"
+            },
+            {
+                "type": "comic_grid",
+                "question": "What errands are they running?",
+                "panels": [
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113319/haircut_ysqrgg.png",
+                        "prompt": "Get a haircut"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113318/carrepaired_uybokf.png",
+                        "prompt": "Get the car repaired"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113319/suitdrycleaned_c2iymq.png",
+                        "prompt": "Get a suit dry-cleaned"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113318/fixglasses_qicyid.png",
+                        "prompt": "Get glasses fixed"
+                    }
+                ]
+            },
+            {
+                "type": "teacher_notes",
+                "title": "Lesson Notes",
+                "content": "Introduce the causative form (to have/get something done) using the previous images."
+            },
+            {
+                "type": "grammar_focus",
+                "title": "Fill the blanks",
+                "instruction": "Fill in the correct form of the verb.",
+                "sentences": [
+                    "1. My son needs to go to the dentist to get his teeth {blank}.",
+                    "2. Do you regularly get the oil in your car {blank}?",
+                    "3. My sister doesn't like to have her ironing {blank} by anyone else.",
+                    "4. We plan to have our living room {blank} next summer.",
+                    "5. Have you ever had your eyes {blank}, Susan?",
+                    "6. You should go to the pharmacy and get your prescription {blank}."
+                ]
+            },
+            {
+                "type": "listening",
+                "title": "What did you do today?",
+                "sentences": [
+                    "1. So did you {blank} everything {blank}?",
+                    "2. No, I still need to {blank} the car {blank}.",
+                    "3. What about your suits? Did you {blank} them {blank}?",
+                    "4. You're {blank} your hair {blank}?",
+                    "5. You're {blank} your picture {blank} on Friday."
+                ]
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113322/errands_w9s2e5.png"
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "FEEDBACK",
+                "tasks": [
+                    "Review the lesson goal.",
+                    "Tell a friend about your chores and errands around town yesterday.",
+                    "Provide feedback to the student."
+                ],
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113322/errands_w9s2e5.png"
+            }
+        ]
+    },
+    "UNIT_RENT_A_CAR": {
+        "metadata": {
+            "title": "Rent a car",
+            "subtitle": "English 3 - Rent a car"
+        },
+        "slides": [
+            {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113657/carrental1_pofjj3.png"
+            },
+            {
+                "type": "comic_grid",
+                "question": "What type of car would you like?",
+                "panels": [
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113319/compactcar_o9su0f.png",
+                        "prompt": "Compact car"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113318/fullsizecar_pxtcls.png",
+                        "prompt": "Full-size car"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113318/suvcar_rqvwy1.png",
+                        "prompt": "SUV"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113318/luxurycar_cdtnl0.png",
+                        "prompt": "Luxury car"
+                    }
+                ]
+            },
+            {
+                "type": "teacher_notes",
+                "title": "Lesson Notes",
+                "content": "Map out vocabulary (compact, full-size, SUV, luxury, mileage, gas tank, insurance)."
+            },
+            {
+                "type": "grammar_focus",
+                "title": "Which rental car costs less?",
+                "instruction": "Complete the comparisons with more or less.",
+                "sentences": [
+                    "1. A compact car costs {blank} than a full-size car.",
+                    "2. A full-size car costs {blank} than a compact car.",
+                    "3. You'll spend {blank} on gas with a compact car.",
+                    "4. The SUV uses {blank} gas than the compact.",
+                    "5. If you drop the car off at the airport, you'll have to pay {blank}."
+                ]
+            },
+            {
+                "type": "reading",
+                "title": "I would like to rent a car",
+                "content": "– I'd like to {blank} a car.<br>– What kind of car would you like? Do you have any {blank} cars?<br>– All our luxury cars are rented at the moment, but we do have several {blank}.<br>– SUVs are too big. Do you have any {blank} cars?<br>– Yes, of course. We have these models available."
+            },
+            {
+                "type": "listening",
+                "title": "What does the A Rate include?",
+                "sentences": [
+                    "1. The customer would like to {blank} a car for a week.",
+                    "2. He would prefer an {blank}, but since all of them are rented, he'll take a {blank} car instead.",
+                    "3. The A Rate includes unlimited {blank}.",
+                    "4. The customer should return the car with a full {blank}.",
+                    "5. The customer decided not to buy the optional {blank} at $10 per day, because his {blank} provides coverage."
+                ]
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113318/carrental_wutj3t.png"
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "FEEDBACK",
+                "tasks": [
+                    "Review the lesson goal.",
+                    "Rent a car at Los Angeles International Airport.",
+                    "Provide feedback to the student."
+                ],
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113318/carrental_wutj3t.png"
+            }
+        ]
     }
 };

@@ -40,7 +40,7 @@ function buildSlideHTML(slide) {
         case 'comic_grid':
             let panelsHtml = slide.panels.map((panel, index) => `
                 <div class="bg-gray-200 border-4 border-gray-800 rounded-lg flex justify-center items-center overflow-hidden relative cursor-pointer shadow-sm hover:shadow-md transition-shadow" 
-                     onclick="this.querySelector('.reveal-cover').style.opacity='0'; this.querySelector('.reveal-cover').style.pointerEvents='none';">
+                    onclick="const cover = this.querySelector('.reveal-cover'); if(cover) { cover.style.opacity='0'; cover.style.pointerEvents='none'; }">
                     
                     <img src="${panel.image}" alt="Comic Panel" class="absolute inset-0 w-full h-full object-cover">
                     
@@ -194,29 +194,44 @@ function buildSlideHTML(slide) {
 }
 
 // Helper: Save the text from inputs and textareas before leaving a slide
+// Helper: Save text AND cover states before leaving a slide
 function saveSlideState() {
     if (currentUnitId === null) return; 
     
+    // 1. Save all text inputs
     const inputs = slideContainer.querySelectorAll('input[type="text"], textarea');
-    const state = [];
+    const inputState = [];
+    inputs.forEach(input => inputState.push(input.value));
     
-    inputs.forEach(input => {
-        state.push(input.value);
-    });
+    // 2. Save all cover states (Are they transparent/clicked?)
+    const covers = slideContainer.querySelectorAll('.reveal-cover, .bank-cover');
+    const coverState = [];
+    covers.forEach(cover => coverState.push(cover.style.opacity === '0'));
     
-    slideStates[currentSlideIndex] = state;
+    // Save both into our memory object
+    slideStates[currentSlideIndex] = { text: inputState, covers: coverState };
 }
 
-// Helper: Restore the text when returning to a slide
+// Helper: Restore text AND cover states when returning to a slide
 function restoreSlideState() {
     if (!slideStates[currentSlideIndex]) return; 
     
-    const inputs = slideContainer.querySelectorAll('input[type="text"], textarea');
     const state = slideStates[currentSlideIndex];
     
+    // 1. Restore text
+    const inputs = slideContainer.querySelectorAll('input[type="text"], textarea');
     inputs.forEach((input, index) => {
-        if (state[index] !== undefined) {
-            input.value = state[index];
+        if (state.text && state.text[index] !== undefined) {
+            input.value = state.text[index];
+        }
+    });
+    
+    // 2. Restore covers
+    const covers = slideContainer.querySelectorAll('.reveal-cover, .bank-cover');
+    covers.forEach((cover, index) => {
+        if (state.covers && state.covers[index] === true) {
+            cover.style.opacity = '0';
+            cover.style.pointerEvents = 'none'; // Ensure they stay unclickable
         }
     });
 }
