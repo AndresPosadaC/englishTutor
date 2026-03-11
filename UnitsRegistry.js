@@ -557,10 +557,10 @@ const UnitsRegistry = {
                 "title": "Fill the blanks",
                 "instruction": "Fill in the correct form of the verb.",
                 "sentences": [
-                    "1. My son needs to go to the dentist to get his teeth {blank}. [a. prepared / b. cleaned]",                 
-                    "2. Do you regularly get the oil in your car {blank}? [a. changed / b. painted]",                  
-                    "3. My sister doesn't like to have her ironing {blank} by anyone else. [a. done / b. checked]",                  
-                    "4. We plan to have our living room {blank} next summer. [a. prepared / b. painted]",                   
+                    "1. My son needs to go to the dentist to get his teeth {blank}. [a. prepared / b. cleaned]",
+                    "2. Do you regularly get the oil in your car {blank}? [a. changed / b. painted]",
+                    "3. My sister doesn't like to have her ironing {blank} by anyone else. [a. done / b. checked]",
+                    "4. We plan to have our living room {blank} next summer. [a. prepared / b. painted]",
                     "5. Have you ever had your eyes {blank}, Susan? [a. checked / b. cleaned]",
                     "6. You should go to the pharmacy and get your prescription {blank}. [a. cut / b. filled]"
                 ]
@@ -672,6 +672,178 @@ const UnitsRegistry = {
                     "Provide feedback to the student."
                 ],
                 "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113318/carrental_wutj3t.png"
+            }
+        ]
+    },
+    "UNIT_ASKING_UNKNOWN": {
+        "metadata": {
+            "title": "Ask for something you don't know the name of",
+            "subtitle": "English 5 - Asking about unknown items"
+        },
+        "slides": [
+            {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773234838/confused_olngdw.png"
+            },
+            {
+                "type": "comic_grid",
+                "question": "What's the word I'm looking for?",
+                "panels": [
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773234806/paintbrush_o8gkge.png",
+                        "prompt": "Painting item"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773234806/shrugging_ozk0tl.png",
+                        "prompt": "Bathroom scale"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773234806/clip_wvjsej.png",
+                        "prompt": "Office item"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773234806/teeth_kgr2cf.png",
+                        "prompt": "Bathroom item"
+                    }
+                ]
+            },
+            {
+                "type": "teacher_notes",
+                "title": "Lesson Notes",
+            },
+            {
+                "type": "grammar_focus",
+                "title": "Defining relative clauses",
+                "instruction": "Fill in the blank with the correct relative pronoun (that / who).",
+                "sentences": [
+                    "1. A microwave is an appliance {blank} cooks food quickly.",
+                    "2. A sales clerk is a person {blank} helps customers.",
+                    "3. I need that thing {blank} makes painting go faster.",
+                    "4. An architect is a person {blank} designs buildings.",
+                    "5. It's the object {blank} you use to weigh yourself."
+                ]
+            },
+            {
+                "type": "expression_bank",
+                "title": "What did you have in mind?",
+                "dialogues": [
+                    "– I need that thing that makes painting go faster. Oh, {blank}?",
+                    "– I know the word in my language, but {blank}.",
+                    "– Is this what you {blank}?",
+                    "– Yes! That's {blank} what I wanted!"
+                ],
+                "bank": [
+                    "what's it called",
+                    "my mind has gone blank",
+                    "had in mind",
+                    "exactly"
+                ]
+            },
+            {
+                "type": "reading",
+                "title": "Can I help you?",
+                "content": "– I hope so. I'm painting my living room, and it's going very slowly. I need that {blank} that makes painting go faster. Oh, what's it called?<br>– I'm not sure. There are a lot of painting {blank}.<br>– It's that thing you put paint on and you move it up and down on the wall.<br>– You mean a {blank}?<br>– Hmm... I think so! Can you show me?<br>– Sure. If you'll just follow me... Is this what you {blank} in mind?"
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "FEEDBACK",
+                "tasks": [
+                    "Review the lesson goal.",
+                    "Roleplay: You need to buy an item at a hardware store, but you don't know the name in English. Explain what the object looks like and what it is used for.",
+                    "Provide feedback to the student."
+                ],
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773234951/exact_tool_qy4vn9.png"
+            }
+        ]
+    },
+    "UNIT_SHOPPING_EXPERIENCE": {
+        "metadata": {
+            "title": "Describe a shopping experience",
+            "subtitle": "English 5 - Shopping Experience"
+        },
+        "slides": [
+            {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773235112/frustrated_hkzldi.png"
+            },
+            {
+                "type": "comic_grid",
+                "question": "Is there a problem?",
+                "panels": [
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773235112/mirror_kt3lta.png",
+                        "prompt": "Wrong size / Not my style"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773235112/gadget_pcuud6.png",
+                        "prompt": "Defective / Missing part"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773235112/register_suzpwl.png",
+                        "prompt": "Long line / Ordeal"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773235112/scratching_jjfvvm.png",
+                        "prompt": "Undertrained staff"
+                    }
+                ]
+            },
+            {
+                "type": "teacher_notes",
+                "title": "Lesson Notes"
+            },
+            {
+                "type": "grammar_focus",
+                "title": "Relative clauses (object form)",
+                "instruction": "Identify the relative clause in the sentence.",
+                "sentences": [
+                    "1. The people {blank} we spoke to were very helpful.",
+                    "2. The shirt {blank} I bought yesterday has a hole in it.",
+                    "3. The cashier {blank} I asked for help was undertrained.",
+                    "4. The ice cream cone {blank} she ordered had a triple scoop.",
+                    "5. The customer service {blank} I received was terrible."
+                ]
+            },
+            {
+                "type": "expression_bank",
+                "title": "Describing problems",
+                "dialogues": [
+                    "– The item isn't right for me. It's just {blank}.",
+                    "– I need to return this. The item is {blank}. It has a {blank} part.",
+                    "– There are staff issues. The cashier was completely {blank}.",
+                    "– Waiting to pay was such an {blank}. The {blank} was so long!"
+                ],
+                "bank": [
+                    "not my style",
+                    "defective",
+                    "missing",
+                    "undertrained",
+                    "ordeal",
+                    "line"
+                ]
+            },
+            {
+                "type": "listening",
+                "title": "Returning an item",
+                "sentences": [
+                    "1. The customer wants to return a shirt because it has a {blank} in it.",
+                    "2. She originally bought it because she had a discount {blank}.",
+                    "3. She was very {blank} because she had to wait in a long {blank} at the cash register.",
+                    "4. The store clerk offered to let her {blank} the item for a new one."
+                ]
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "FEEDBACK",
+                "tasks": [
+                    "Review the lesson goal.",
+                    "Think of a good shopping experience and a bad shopping experience.",
+                    "Describe both experiences using the new vocabulary (defective, ordeal, line, annoyed, etc.).",
+                    "Provide feedback to the student."
+                ],
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773235111/thumbs_up_irayhh.png"
             }
         ]
     }
