@@ -796,8 +796,7 @@ const UnitsRegistry = {
             },
             {
                 "type": "grammar_focus",
-                "title": "Relative clauses (object form)",
-                "instruction": "Identify the relative clause in the sentence.",
+                "title": "Fill the blanks",
                 "sentences": [
                     "1. The people {blank} we spoke to were very helpful.",
                     "2. The shirt {blank} I bought yesterday has a hole in it.",
@@ -811,7 +810,7 @@ const UnitsRegistry = {
                 "title": "Describing problems",
                 "dialogues": [
                     "– The item isn't right for me. It's just {blank}.",
-                    "– I need to return this. The item is {blank}. It has a {blank} part.",
+                    "– I need to return this. The item is {blank}. It also has a {blank} part.",
                     "– There are staff issues. The cashier was completely {blank}.",
                     "– Waiting to pay was such an {blank}. The {blank} was so long!"
                 ],
