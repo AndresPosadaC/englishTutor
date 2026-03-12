@@ -845,5 +845,103 @@ const UnitsRegistry = {
                 "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773235111/thumbs_up_irayhh.png"
             }
         ]
+    },
+    "UNIT_CHILDHOOD_STORY": {
+        "metadata": {
+            "title": "Tell a story about yourself or someone you knew well as a child",
+            "subtitle": "English 7 - Childhood Memories"
+        },
+        "slides": [
+            {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773326986/photoAlbum_swghre.png"
+            },
+            {
+                "type": "comic_grid",
+                "question": "What do you remember?",
+                "panels": [
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773326982/trips_y6c6y8.png",
+                        "prompt": "Trips I took with my family"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773326981/Prizzed_ad9icg.avif",
+                        "prompt": "My prized possessions"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773326982/schooldays_ohcwuz.png",
+                        "prompt": "My school days"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773326982/rolemodel_b8s7of.png",
+                        "prompt": "Role models I looked up to"
+                    }
+                ]
+            },
+            {
+                "type": "teacher_notes",
+                "title": "Lesson Notes"
+            },
+            {
+                "type": "expression_bank",
+                "title": "My childhood memories",
+                "dialogues": [
+                    "– He was someone I admired. He was a great {blank}.",
+                    "– As a kid, I was very {blank}. I always wanted to learn new things.",
+                    "– I still have my favorite toy. It is my {blank}.",
+                    "– My older sister always tried to {blank} for me.",
+                    "– My brother and I have a very strong {blank}."
+                ],
+                "bank": [
+                    "role model",
+                    "curious",
+                    "prized possession",
+                    "set an example",
+                    "bond"
+                ]
+            },
+            {
+                "type": "grammar_focus",
+                "title": "Talking about the past",
+                "instruction": "Fill in the blanks.",
+                "sentences": [
+                    "1. My dad and I {blank} play baseball all the time.",
+                    "2. I didn't {blank} read as much as I do now.",
+                    "3. We {blank} go camping every year when I was a child.",
+                    "4. My sister {blank} ask my mother to read the same book every night.",
+                    "5. When I was a child, I {blank} eat my vegetables.",
+                    "6. Who {blank} set an example for you?"
+                ]
+            },
+            {
+                "type": "reading",
+                "title": "When I was a child...",
+                "content": "When I was a child, I {blank} live in California. Some of the most memorable times in my childhood are the days we went to the beach. We {blank} go there every weekend. Saturday {blank} be my favorite day of the week because we {blank} have a picnic on the beach then. I remember how I {blank} always play outdoors with my sister every afternoon after school, too. One day, we found a cat and took it home with us. My mom said she appreciated our innocence, but didn't want us to keep the cat. We found another home for it. I {blank} love cats when I was a child, but now I prefer dogs."
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "Listening: Favorite childhood memory",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773326982/LuisFIonaChristopher_yyxrtx.png"
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773326984/rememberChildhood_inmest.png"
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "FEEDBACK",
+                "tasks": [
+                    "Review the lesson goal.",
+                    "Tell a classmate about a memorable event from your childhood (What happened? Why do you remember it clearly?).",
+                    "Tell a classmate about an important person from your childhood (Why were they important? What effect did they have?).",
+                    "Provide feedback to the student."
+                ],
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773326984/rememberChildhood_inmest.png"
+            }
+        ]
     }
 };
+
+
