@@ -1,5 +1,5 @@
 /**
- * Berlitz Immersion - Lesson Registry
+ * Lesson Registry
  * Auto-generated file from JSON sources.
  */
 
@@ -941,7 +941,193 @@ const UnitsRegistry = {
                 "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773326984/rememberChildhood_inmest.png"
             }
         ]
+    },
+    "UNIT_PLANNED_TRIP": {
+        "metadata": {
+            "title": "Describe a planned trip",
+            "subtitle": "English 5 - Planned Trip"
+        },
+        "slides": [
+            {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773672673/vacationPlanning_qvvag2.png"
+            },
+            {
+                "type": "comic_grid",
+                "question": "What sights will they explore?",
+                "panels": [
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773672671/stone_ruins_azt4yd.png",
+                        "prompt": "Ruins"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773672672/suspension_bridge_wksead.png",
+                        "prompt": "Bridge"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773672671/tall_statue_bvsku3.png",
+                        "prompt": "Square / Monument"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773672671/lights_music_yd7bgc.png",
+                        "prompt": "Nightlife"
+                    }
+                ]
+            },
+            {
+                "type": "teacher_notes",
+                "title": "Lesson Notes"
+            },
+            {
+                "type": "grammar_focus",
+                "title": "Future Progressive",
+                "instruction": "Fill in the blanks",
+                "sentences": [
+                    "1. I'm not flying to Tokyo this Tuesday. I {blank} to Tokyo next Tuesday.",
+                    "2. They aren't traveling now. They {blank} this summer.",
+                    "3. Brad isn't coming to the get-together. He {blank} next month, either.",
+                    "4. Sue is visiting her sister right now. She {blank} her again in two weeks.",
+                    "5. Will you be around tomorrow? No, I {blank} on the train to Montreal.",
+                    "6. This time next week, we {blank} on a beach in the Bahamas."
+                ]
+            },
+            {
+                "type": "expression_bank",
+                "title": "Describing Plans",
+                "dialogues": [
+                    "– We don't have a plan yet. We're just {blank} the idea of going to Paris.",
+                    "– I can't decide! I'm {blank} between Mexico and Hawaii.",
+                    "– It's a {blank} between the two hotels. They are both great.",
+                    "– We've {blank} not to fly because it is too expensive.",
+                    "– We're not 100% sure yet, but it {blank} we'll be staying home."
+                ],
+                "bank": [
+                    "toying with",
+                    "torn",
+                    "toss-up",
+                    "opted",
+                    "looks like"
+                ]
+            },
+            {
+                "type": "listening",
+                "title": "Jim's Travel Itinerary",
+                "sentences": [
+                    "1. On Monday at 6:45, Jim will be taking the {blank} to Boston.",
+                    "2. On Tuesday, he will be writing the {blank} report.",
+                    "3. On Thursday at 12:30, he will be meeting with {blank}.",
+                    "4. On Friday afternoon, he will be speaking to {blank}.",
+                    "5. On Sunday, he will be going to the {blank} Theater."
+                ]
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773672678/citymap_zyagbt.png"
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "FEEDBACK",
+                "tasks": [
+                    "Review the lesson goal.",
+                    "Plan a one-day itinerary to one of your favorite cities for a visitor.",
+                    "Describe a trip you will take later this year (Where? What are the famous sights?).",
+                    "Provide feedback to the student."
+                ],
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773672678/citymap_zyagbt.png"
+            }
+        ]
+    },
+    "UNIT_LIVING_ABROAD": {
+        "metadata": {
+            "title": "Discuss pros and cons of living abroad",
+            "subtitle": "English 5 - Living Abroad"
+        },
+        "slides": [
+            {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773673011/leaving_abroad_r7owvy.png"
+            },
+            {
+                "type": "comic_grid",
+                "question": "What is this?",
+                "panels": [
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773672670/street_food_c7hrav.png",
+                        "prompt": "Local foods (Pro)"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773672670/government_paperwork_j6ekbc.png",
+                        "prompt": "Bureaucracy (Con)"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773672670/new_language_civx6j.png",
+                        "prompt": "Personal growth (Pro)"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773672671/park_bench_lae7uh.png",
+                        "prompt": "Lack of support (Con)"
+                    }
+                ]
+            },
+            {
+                "type": "teacher_notes",
+                "title": "Lesson Notes"
+            },
+            {
+                "type": "reading",
+                "title": "Is there a lot of red tape?",
+                "content": "There is a lot of {blank} involved in living abroad. You can't just move to another country and live there! Depending on where you are from, you may need to {blank} for a work or student visa. You can do this at the {blank} or consulate of the country you want to move to. It can take several months to {blank} a visa application. Once you move, you may need to {blank} a residence {blank}. Permits are {blank} for a fixed amount of time but can usually be {blank} for longer."
+            },
+            {
+                "type": "grammar_focus",
+                "title": "Obligation & Prohibition",
+                "instruction": "Fill in the blanks",
+                "sentences": [
+                    "1. You {blank} have a passport for the flight.",
+                    "2. Students {blank} apply for a visa.",
+                    "3. We {blank} submit an application to the consulate.",
+                    "4. You {blank} attend club meetings; it is optional.",
+                    "5. They {blank} reply within 30 days.",
+                    "6. You {blank} forget to renew your permit!"
+                ]
+            },
+            {
+                "type": "expression_bank",
+                "title": "Discussing the Experience",
+                "dialogues": [
+                    "– I'm worried about the {blank} of support from my friends and family.",
+                    "– You will experience a completely {blank} culture.",
+                    "– Dealing with all the government forms is just too much {blank}.",
+                    "– It's a great chance for personal {blank} and career development.",
+                    "– Sometimes expats experience culture {blank} when everything is new."
+                ],
+                "bank": [
+                    "lack",
+                    "different",
+                    "bureaucracy",
+                    "growth",
+                    "shock"
+                ]
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113322/errands_w9s2e5.png"
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "FEEDBACK",
+                "tasks": [
+                    "Review the lesson goal.",
+                    "Roleplay: A good friend of yours is considering moving abroad to a country they have never been to. Discuss the idea.",
+                    "Make sure to cover both the PROS and CONS of the decision.",
+                    "Provide feedback to the student."
+                ],
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113322/errands_w9s2e5.png"
+            }
+        ]
     }
 };
-
-
