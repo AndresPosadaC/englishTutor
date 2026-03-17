@@ -1129,5 +1129,122 @@ const UnitsRegistry = {
                 "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773113322/errands_w9s2e5.png"
             }
         ]
+    },
+    "UNIT_TOURIST_DESTINATION": {
+        "metadata": {
+            "title": "Describe a famous tourist destination",
+            "subtitle": "Unit 15 - Tourist Destination"
+        },
+        "slides": [
+            {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773770673/ancient_monument_plce1q.webp"
+            },
+            {
+                "type": "comic_grid",
+                "question": "How would you describe these places?",
+                "panels": [
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773771229/big_statue_ii21tj.jpg",
+                        "prompt": "Colossal / Massive"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773770673/marvel_vxz1gs.jpg",
+                        "prompt": "Stunning / Exquisite"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773770883/pyramid_xpr3cr.avif",
+                        "prompt": "Ancient"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773770673/habor_liberty_eqgny5.webp",
+                        "prompt": "Harbor / Ferry"
+                    }
+                ]
+            },
+            {
+                "type": "teacher_notes",
+                "title": "Lesson Notes"
+            },
+            {
+                "type": "grammar_focus",
+                "title": "Passive Voice (Present & Past)",
+                "instruction": "Fill in the blanks",
+                "sentences": [
+                    "1. The Eiffel Tower {blank} (visit) by over six million people a year.",
+                    "2. The Hoover Dam {blank} (build) between 1931 and 1936.",
+                    "3. The ancient ruins {blank} (discover) by archaeologists many years ago.",
+                    "4. Access to the monument {blank} (restrict) to protect the stone.",
+                    "5. The giant sculpture {blank} (assemble) right here in the harbor."
+                ]
+            },
+            {
+                "type": "expression_bank",
+                "title": "It's not just big, it's...",
+                "dialogues": [
+                    "– The pyramid isn't just big, it's absolutely {blank}!",
+                    "– The view from the top of the mountain was completely {blank}.",
+                    "– The details on the marble palace are {blank}.",
+                    "– Millions of years ago, this {blank} canyon was formed by a river."
+                ],
+                "bank": [
+                    "colossal",
+                    "breathtaking",
+                    "exquisite",
+                    "ancient",
+                    "massive",
+                    "stunning"
+                ]
+            },
+            {
+                "type": "reading",
+                "title": "A Gift of Copper",
+                "content": "The Statue of Liberty is a {blank} sculpture located in New York {blank}. It is made of {blank} and stands on a large stone {blank}. To see it, visitors must take a {blank} to the island. Inside, you can {blank} the stairs to look out from the {blank}, but access to the glowing {blank} is restricted."
+            },
+            {
+                "type": "listening",
+                "title": "Can you give me more information?",
+                "sentences": [
+                    "The Statue of Liberty is a (1) {blank} sculpture on Liberty",
+                    "Island in New York Harbor. It (2) {blank} to the people of",
+                    "the United States by the people of France, and was dedicated in",
+                    "October (3) {blank} .",
+                    "The statue is made of (4) {blank}. It was built in France",
+                    "and then shipped in pieces to the US, where it was (5) {blank}",
+                    "The statue itself measures 151 feet (46 m), but",
+                    "with its pedestal, from ground level to torch, it is (6) {blank} (93 m) tall.",
+                ]
+            },
+            {
+                "type": "listening",
+                "title": "Can you give me more information?",
+                "sentences": [
+                    "The Statue of Liberty is visited by over (7) {blank} people a year.",
+                    "Visitors can only (8) {blank} Liberty Island and the statue by taking a ferry.",
+                    "Ferry tickets include access to the island, but not the actual statue.",
+                    "Visitors who want access to the pedestal or to climb to the crown of", 
+                    "the statue (9) {blank} tickets before their visit. Tickets for climbing to the crown of",
+                    "the statue are often reserved (10) {blank} ahead of time."
+                ]
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773770673/ancient_monument_plce1q.webp"
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "FEEDBACK",
+                "tasks": [
+                    "Review the lesson goal.",
+                    "Think of a famous tourist destination you have visited or want to visit.",
+                    "Describe it using the advanced vocabulary (colossal, exquisite, breathtaking, ancient) instead of 'very'.",
+                    "Use the passive voice to explain its history (e.g., it was built by..., it is visited by...).",
+                    "Provide feedback to the student."
+                ],
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773770673/ancient_monument_plce1q.webp"
+            }
+        ]
     }
 };
