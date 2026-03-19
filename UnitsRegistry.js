@@ -1246,5 +1246,102 @@ const UnitsRegistry = {
                 "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773770673/ancient_monument_plce1q.webp"
             }
         ]
+    },
+    "UNIT_PREFERENCE_CHOICE": {
+        "metadata": {
+            "title": "Express preference and choice",
+            "subtitle": "Unit 18 - Preference & Choice"
+        },
+        "slides": [
+            {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773954677/yield_rxbeur.png"
+            },
+            {
+                "type": "comic_grid",
+                "question": "What are their preferences?",
+                "panels": [
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773954127/choice_udbjjr.png",
+                        "prompt": "Both ... and"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773954127/choice2_khcuvi.png",
+                        "prompt": "Either ... or"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773954127/pushing_away_u5ak3a.png",
+                        "prompt": "Neither ... nor"
+                    },
+                    {
+                        "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773954127/but_also_xewwsn.png",
+                        "prompt": "Not only ... but also"
+                    }
+                ]
+            },
+            {
+                "type": "teacher_notes",
+                "title": "Lesson Notes",
+                "content": "GOAL: Introduce Connectors"
+            },
+            {
+                "type": "grammar_focus",
+                "title": "Connectors",
+                "instruction": "Fill in the paired conjunctions",
+                "sentences": [
+                    "1. You can have {blank} strawberry {blank} mint chocolate chip. Choose one!",
+                    "2. I love this place! I want {blank} the caramel swirl {blank} the double fudge.",
+                    "3. I am {blank} lactose intolerant {blank} allergic to nuts, so I can't eat any of these.",
+                    "4. The deluxe sundae is {blank} delicious {blank} huge! I couldn't finish it."
+                ]
+            },
+            {
+                "type": "expression_bank",
+                "title": "Making Choices",
+                "dialogues": [
+                    "– You can {blank} stay here {blank} go with him.",
+                    "– {blank} the hotel {blank} the food was good. It was a terrible trip.",
+                    "– I was {blank} hungry {blank} tired after the long flight.",
+                    "– I want to have {blank} a successful career {blank} a happy family."
+                ],
+                "bank": [
+                    "neither / nor",
+                    "not only / but also",
+                    "either / or",
+                    "both / and"
+                ]
+            },
+            {
+                "type": "listening",
+                "title": "Calling about a recent order",
+                "sentences": [
+                    "1. The order arrived in {blank} condition.",
+                        "a. good b. brand-new c. bad",
+                    "2. The man  {blank} for the delivery.",
+                        "a. signed b. didn't sign c. refused",
+                    "3. The store  {blank} do an exchange for the damaged TV.",
+                        "a. can b. can't c. will",
+                    "4. If items are damaged in transit, the  {blank} has to pay for them.",
+                        "a. customer b. TV company c. delivery company"
+                ]
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "GOAL",
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773954677/yield_rxbeur.png"
+            },
+            {
+                "type": "performance_with_notes",
+                "title": "FEEDBACK",
+                "tasks": [
+                    "Review the lesson goal.",
+                    "Ask the student to express their preferences between different hobbies, foods, or travel destinations.",
+                    "Ensure they correctly use the connectors: either/or, neither/nor, both/and, not only/but also.",
+                    "Provide feedback to the student."
+                ],
+                "image": "https://res.cloudinary.com/detpgdqwv/image/upload/v1773954677/yield_rxbeur.png"
+            }
+        ]
     }
 };
